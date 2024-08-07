@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Serif Khitan Small Script", serif;
+}
+#container
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.logo
+{
+    width: 100px;
+}
+.ListItems
+{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.links:hover
+{
+color: brown;
+text-decoration: underline;
+}
+.homeContent{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Noto Serif Khitan Small Script", serif;
+}
+#lname{
+    font-family: "Noto Serif Khitan Small Script", serif;
+    color: orange;
+}
+#userDetails{
+    line-height: 1.2;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.homeImages{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    }
+    .group1{
+        position: absolute;
+        height: 100%;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%);
+        transition: bottom 2s,left 1s;
+    }
+    .homeImages:hover #shape{
+        bottom: 70px;
+    }
+    .homeImages:hover #girl{
+        left: 40%;
+    }
+    #about
+    {
+        margin: 15% 8% 0px 8%;
+    }
+    .sectionHead{
+        text-align: center;
+    }
+    .mainHead
+    {
+        font-size: 30px;
+    }
+    .subHead
+    {
+        font-size: 20px;
+        color: green;
+    }
+    .aboutBody{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        align-items: center;
+    }
+    .img1{
+        width: 80%;
+    }
+    .aboutContent
+    {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .informatin{
+        margin-top: 1.3rem;
+    }
+    .infoBox{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .infoBox>span{
+        margin-left: 1rem;
+    }
+    #skill
+    {
+        margin: 8% 8% 0px 8%;
+    }
+    .skillContent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 2rem;
+        margin-top: 20px;
+    }
+    .baseBar{
+        width: 100%;
+        height: 10px;
+        background-color: black;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 0px;
+    }
+    .bars 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 1 rem opx;
+    }
+    .barHead,.barPercent
+    {
+        font-weight: 500;
+        font-size: 1.3 rem;
+    }
+    .htmlBar
+    {
+        background-color: orangered;
+        width: 92%;
+    }
+    .cssBar
+    {
+        background-color: orangered;
+        width: 72%;
+    }
+    .reactBar
+    {
+        background-color: orangered;
+        width: 97%;
+    }
+    .angularBar
+    {
+        background-color: orangered;
+        width: 87%;
+    }
+#contact
+{
+    margin: 4% 8% 0px 8% ;
+}
+.iconCollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+/* border: solid; */
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2 rem;
+}
+.icon:hover{
+    background-image:linear-gradient(red,yellow,green,purple); 
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%
+    {
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%
+    {
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%
+    {
+        transform: rotate(-30deg);
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+.upArrow{
+    float:right;
+    margin: -30px 20px 40px 0px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
